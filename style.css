@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.card {
+    height: 63vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: rgb(188, 226, 239);
+    border-width: 12px;
+    border-style: solid;
+    
+}
+
+.card img{
+    width: 260px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+
+.card-btn{
+    width: 100px;
+    height: 45px;
+    background-color: rgb(188, 226, 239);
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
